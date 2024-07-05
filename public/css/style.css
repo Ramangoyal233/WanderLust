@@ -1,0 +1,148 @@
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif  !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+/* navbar CSS */
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424f;
+    font-size:2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+#home-tag {
+border: 1px solid #f8f4f1;
+  border-radius: 1rem;
+  margin-right: 2rem;
+  height: 2.3rem;
+  padding: 13px;
+  display: flex;
+  align-items: center;
+}
+
+#home-tag:hover{
+  border-color: #f8f4f1;
+background-color:#f8f4f1 ;
+cursor: pointer;
+}
+/* Footer CSS */
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links , .f-info-social
+, .f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-social i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+   
+}
+
+
+.f-info {
+    display: flex;
+    align-items: space-evenly;
+    background-color: #ebebeb;
+    text-align: center;
+    height: 8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* cards */
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+    margin-right: 10px;
+}
+
+.card-img-top {
+    border-radius:1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+a.listing-links{
+    text-decoration: none;
+}
+
+
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add-btn{
+    background-color: #fe424f !important;
+    border: none !important;
+}
+
+/* edit page */
+
+.edit-btn{
+    background-color: #fe424f !important;
+    border: none !important;
+}
+
+/* show img */
+
+.show-img{
+    height: 60vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* MAP */
+#map {
+    height: 280px;
+    width: 100vh;
+}
